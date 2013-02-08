@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4E64FE116C4C1DB0005351E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E64FE016C4C1DB0005351E /* UIKit.framework */; };
+		D4E64FE316C4C1DB0005351E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E64FE216C4C1DB0005351E /* Foundation.framework */; };
+		D4E64FE516C4C1DB0005351E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E64FE416C4C1DB0005351E /* CoreGraphics.framework */; };
+		D4E64FEB16C4C1DB0005351E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4E64FE916C4C1DB0005351E /* InfoPlist.strings */; };
+		D4E64FED16C4C1DB0005351E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E64FEC16C4C1DB0005351E /* main.m */; };
+		D4E64FF116C4C1DB0005351E /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E64FF016C4C1DB0005351E /* STAppDelegate.m */; };
+		D4E64FF316C4C1DB0005351E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E64FF216C4C1DB0005351E /* Default.png */; };
+		D4E64FF516C4C1DB0005351E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E64FF416C4C1DB0005351E /* Default@2x.png */; };
+		D4E64FF716C4C1DB0005351E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E64FF616C4C1DB0005351E /* Default-568h@2x.png */; };
+		D4E64FFA16C4C1DB0005351E /* STViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E64FF916C4C1DB0005351E /* STViewController.m */; };
+		D4E64FFD16C4C1DB0005351E /* STViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4E64FFB16C4C1DB0005351E /* STViewController.xib */; };
+		D4E6500E16C4C2720005351E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E6500D16C4C2720005351E /* Icon.png */; };
+		D4E6501016C4C2740005351E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E6500F16C4C2740005351E /* Icon@2x.png */; };
+		D4E6501216C4C2980005351E /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E6501116C4C2980005351E /* Background.png */; };
+		D4E6501416C4C33C0005351E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E6501316C4C33B0005351E /* AVFoundation.framework */; };
+		D4E6501716C4C38C0005351E /* STView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E6501616C4C38C0005351E /* STView.m */; };
+		D4E6501A16C4C78B0005351E /* STButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E6501916C4C78B0005351E /* STButton.m */; };
+		D4E6501E16C4C8A40005351E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E6501D16C4C8A30005351E /* QuartzCore.framework */; };
+		D4E6502516C4CC180005351E /* A3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4E6501F16C4CC180005351E /* A3.mp3 */; };
+		D4E6502616C4CC180005351E /* B4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4E6502016C4CC180005351E /* B4.mp3 */; };
+		D4E6502716C4CC180005351E /* D4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4E6502116C4CC180005351E /* D4.mp3 */; };
+		D4E6502816C4CC180005351E /* E3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4E6502216C4CC180005351E /* E3.mp3 */; };
+		D4E6502916C4CC180005351E /* E5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4E6502316C4CC180005351E /* E5.mp3 */; };
+		D4E6502A16C4CC180005351E /* G4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4E6502416C4CC180005351E /* G4.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4E64FDD16C4C1DB0005351E /* Simpletune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simpletune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E64FE016C4C1DB0005351E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4E64FE216C4C1DB0005351E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4E64FE416C4C1DB0005351E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4E64FE816C4C1DB0005351E /* Simpletune-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simpletune-Info.plist"; sourceTree = "<group>"; };
+		D4E64FEA16C4C1DB0005351E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4E64FEC16C4C1DB0005351E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4E64FEE16C4C1DB0005351E /* Simpletune-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simpletune-Prefix.pch"; sourceTree = "<group>"; };
+		D4E64FEF16C4C1DB0005351E /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
+		D4E64FF016C4C1DB0005351E /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
+		D4E64FF216C4C1DB0005351E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D4E64FF416C4C1DB0005351E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D4E64FF616C4C1DB0005351E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D4E64FF816C4C1DB0005351E /* STViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
+		D4E64FF916C4C1DB0005351E /* STViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STViewController.m; sourceTree = "<group>"; };
+		D4E64FFC16C4C1DB0005351E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/STViewController.xib; sourceTree = "<group>"; };
+		D4E6500D16C4C2720005351E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		D4E6500F16C4C2740005351E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		D4E6501116C4C2980005351E /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		D4E6501316C4C33B0005351E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D4E6501516C4C38C0005351E /* STView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STView.h; sourceTree = "<group>"; };
+		D4E6501616C4C38C0005351E /* STView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STView.m; sourceTree = "<group>"; };
+		D4E6501816C4C78B0005351E /* STButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STButton.h; sourceTree = "<group>"; };
+		D4E6501916C4C78B0005351E /* STButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STButton.m; sourceTree = "<group>"; };
+		D4E6501D16C4C8A30005351E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D4E6501F16C4CC180005351E /* A3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A3.mp3; sourceTree = "<group>"; };
+		D4E6502016C4CC180005351E /* B4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = B4.mp3; sourceTree = "<group>"; };
+		D4E6502116C4CC180005351E /* D4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D4.mp3; sourceTree = "<group>"; };
+		D4E6502216C4CC180005351E /* E3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E3.mp3; sourceTree = "<group>"; };
+		D4E6502316C4CC180005351E /* E5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E5.mp3; sourceTree = "<group>"; };
+		D4E6502416C4CC180005351E /* G4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = G4.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4E64FDA16C4C1DB0005351E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E6501E16C4C8A40005351E /* QuartzCore.framework in Frameworks */,
+				D4E6501416C4C33C0005351E /* AVFoundation.framework in Frameworks */,
+				D4E64FE116C4C1DB0005351E /* UIKit.framework in Frameworks */,
+				D4E64FE316C4C1DB0005351E /* Foundation.framework in Frameworks */,
+				D4E64FE516C4C1DB0005351E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4E64FD416C4C1DB0005351E = {
+			isa = PBXGroup;
+			children = (
+				D4E64FE616C4C1DB0005351E /* Simpletune */,
+				D4E64FDF16C4C1DB0005351E /* Frameworks */,
+				D4E64FDE16C4C1DB0005351E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4E64FDE16C4C1DB0005351E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4E64FDD16C4C1DB0005351E /* Simpletune.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4E64FDF16C4C1DB0005351E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4E6501D16C4C8A30005351E /* QuartzCore.framework */,
+				D4E6501316C4C33B0005351E /* AVFoundation.framework */,
+				D4E64FE016C4C1DB0005351E /* UIKit.framework */,
+				D4E64FE216C4C1DB0005351E /* Foundation.framework */,
+				D4E64FE416C4C1DB0005351E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4E64FE616C4C1DB0005351E /* Simpletune */ = {
+			isa = PBXGroup;
+			children = (
+				D4E64FEF16C4C1DB0005351E /* STAppDelegate.h */,
+				D4E64FF016C4C1DB0005351E /* STAppDelegate.m */,
+				D4E6501816C4C78B0005351E /* STButton.h */,
+				D4E6501916C4C78B0005351E /* STButton.m */,
+				D4E6501516C4C38C0005351E /* STView.h */,
+				D4E6501616C4C38C0005351E /* STView.m */,
+				D4E64FF816C4C1DB0005351E /* STViewController.h */,
+				D4E64FF916C4C1DB0005351E /* STViewController.m */,
+				D4E64FFB16C4C1DB0005351E /* STViewController.xib */,
+				D4E64FE716C4C1DB0005351E /* Supporting Files */,
+			);
+			path = Simpletune;
+			sourceTree = "<group>";
+		};
+		D4E64FE716C4C1DB0005351E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4E6501F16C4CC180005351E /* A3.mp3 */,
+				D4E6502016C4CC180005351E /* B4.mp3 */,
+				D4E6502116C4CC180005351E /* D4.mp3 */,
+				D4E6502216C4CC180005351E /* E3.mp3 */,
+				D4E6502316C4CC180005351E /* E5.mp3 */,
+				D4E6502416C4CC180005351E /* G4.mp3 */,
+				D4E6501116C4C2980005351E /* Background.png */,
+				D4E6500F16C4C2740005351E /* Icon@2x.png */,
+				D4E6500D16C4C2720005351E /* Icon.png */,
+				D4E64FE816C4C1DB0005351E /* Simpletune-Info.plist */,
+				D4E64FE916C4C1DB0005351E /* InfoPlist.strings */,
+				D4E64FEC16C4C1DB0005351E /* main.m */,
+				D4E64FEE16C4C1DB0005351E /* Simpletune-Prefix.pch */,
+				D4E64FF216C4C1DB0005351E /* Default.png */,
+				D4E64FF416C4C1DB0005351E /* Default@2x.png */,
+				D4E64FF616C4C1DB0005351E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4E64FDC16C4C1DB0005351E /* Simpletune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E6500016C4C1DB0005351E /* Build configuration list for PBXNativeTarget "Simpletune" */;
+			buildPhases = (
+				D4E64FD916C4C1DB0005351E /* Sources */,
+				D4E64FDA16C4C1DB0005351E /* Frameworks */,
+				D4E64FDB16C4C1DB0005351E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Simpletune;
+			productName = Simpletune;
+			productReference = D4E64FDD16C4C1DB0005351E /* Simpletune.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4E64FD516C4C1DB0005351E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ST;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Skyler;
+			};
+			buildConfigurationList = D4E64FD816C4C1DB0005351E /* Build configuration list for PBXProject "Simpletune" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4E64FD416C4C1DB0005351E;
+			productRefGroup = D4E64FDE16C4C1DB0005351E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4E64FDC16C4C1DB0005351E /* Simpletune */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4E64FDB16C4C1DB0005351E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E64FEB16C4C1DB0005351E /* InfoPlist.strings in Resources */,
+				D4E64FF316C4C1DB0005351E /* Default.png in Resources */,
+				D4E64FF516C4C1DB0005351E /* Default@2x.png in Resources */,
+				D4E64FF716C4C1DB0005351E /* Default-568h@2x.png in Resources */,
+				D4E64FFD16C4C1DB0005351E /* STViewController.xib in Resources */,
+				D4E6500E16C4C2720005351E /* Icon.png in Resources */,
+				D4E6501016C4C2740005351E /* Icon@2x.png in Resources */,
+				D4E6501216C4C2980005351E /* Background.png in Resources */,
+				D4E6502516C4CC180005351E /* A3.mp3 in Resources */,
+				D4E6502616C4CC180005351E /* B4.mp3 in Resources */,
+				D4E6502716C4CC180005351E /* D4.mp3 in Resources */,
+				D4E6502816C4CC180005351E /* E3.mp3 in Resources */,
+				D4E6502916C4CC180005351E /* E5.mp3 in Resources */,
+				D4E6502A16C4CC180005351E /* G4.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4E64FD916C4C1DB0005351E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E64FED16C4C1DB0005351E /* main.m in Sources */,
+				D4E64FF116C4C1DB0005351E /* STAppDelegate.m in Sources */,
+				D4E64FFA16C4C1DB0005351E /* STViewController.m in Sources */,
+				D4E6501716C4C38C0005351E /* STView.m in Sources */,
+				D4E6501A16C4C78B0005351E /* STButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4E64FE916C4C1DB0005351E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E64FEA16C4C1DB0005351E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4E64FFB16C4C1DB0005351E /* STViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E64FFC16C4C1DB0005351E /* en */,
+			);
+			name = STViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4E64FFE16C4C1DB0005351E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4E64FFF16C4C1DB0005351E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4E6500116C4C1DB0005351E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simpletune/Simpletune-Prefix.pch";
+				INFOPLIST_FILE = "Simpletune/Simpletune-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4E6500216C4C1DB0005351E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simpletune/Simpletune-Prefix.pch";
+				INFOPLIST_FILE = "Simpletune/Simpletune-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4E64FD816C4C1DB0005351E /* Build configuration list for PBXProject "Simpletune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E64FFE16C4C1DB0005351E /* Debug */,
+				D4E64FFF16C4C1DB0005351E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E6500016C4C1DB0005351E /* Build configuration list for PBXNativeTarget "Simpletune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E6500116C4C1DB0005351E /* Debug */,
+				D4E6500216C4C1DB0005351E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4E64FD516C4C1DB0005351E /* Project object */;
+}
