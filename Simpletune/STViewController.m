@@ -66,6 +66,7 @@
   currentNote_ = newNote;
   playCount_ = 1;
   audioPlayer_ = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:nil];
+  audioPlayer_.delegate = self;
   [audioPlayer_ play];
   playTimer_ = [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector:@selector(playNote) userInfo:nil
                                                repeats:YES];
