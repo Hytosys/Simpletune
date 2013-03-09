@@ -107,6 +107,7 @@
   
   [self destroyAudioPlayer];
   [self destroyPlayTimer];
+  currentNote_ = kNoteNone;
 }
 
 - (void)didReceiveMemoryWarning {
